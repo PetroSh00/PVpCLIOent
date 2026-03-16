@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.myclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "myclient.mixins.refmap.json",
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

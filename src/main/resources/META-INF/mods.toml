@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[52,)"
+license="MIT"
+
+[[mods]]
+modId="myclient"
+version="${file.jarVersion}"
+displayName="MyClient QoL"
+authors="You"
+description='''
+Educational Forge client framework with keybind UI and safe QoL modules.
+'''
+
+[[dependencies.myclient]]
+modId="forge"
+mandatory=true
+versionRange="[52,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.myclient]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.1]"
+ordering="NONE"
+side="CLIENT"
